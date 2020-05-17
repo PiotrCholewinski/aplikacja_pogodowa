@@ -1,6 +1,6 @@
 Przegląd i odpowiedzialność poszczególnych komponentów
 
-# https://openweathermap.org/current strona udostępniająca darmowe zewnętrzne API które użyliśmy do pobierania danych pogodowych.
+### https://openweathermap.org/current strona udostępniająca darmowe zewnętrzne API które użyliśmy do pobierania danych pogodowych.
 /src/App.js to główny plik odpowiedzialny za działanie aplikacji. Tam znajdziemy też kod:
 ```
 const api_call = await fetch(
